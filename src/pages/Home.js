@@ -243,7 +243,7 @@ const Home = ({
             </h1>
             <p className='text-base leading-relaxed text-gray-500 dark:text-gray-400'>
               {menus_with_meat &&
-                menus_with_meat.slice(0, 4).map((menu, i) => (
+                menus_with_meat.slice(0, 6).map((menu, i) => (
                   <li key={i} className='list-disc'>
                     {menu.name}
                   </li>
@@ -254,7 +254,7 @@ const Home = ({
             </h1>
             <p className='text-base leading-relaxed text-gray-500 dark:text-gray-400'>
               {menus_without_meat &&
-                menus_without_meat.slice(0, 3).map((menu, i) => (
+                menus_without_meat.slice(0, 6).map((menu, i) => (
                   <li key={i} className='list-disc'>
                     {menu.name}
                   </li>
