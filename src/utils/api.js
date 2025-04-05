@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an instance of axios
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://menu-randomizer-api.onrender.com/api', // you can update this to your API URL (e.g., 'http://localhost:5000/api')
 });
 
 // Request interceptor for adding token to headers and configuring content type
